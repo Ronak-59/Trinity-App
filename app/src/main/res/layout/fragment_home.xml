@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="#FFFFD0"
+        android:id="@+id/clicklayout"
+        android:clickable="true"
+        android:layout_height="match_parent">
+    <WebView
+        android:id="@+id/web"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" >
+    </WebView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:id="@+id/clickbutton"/>
+
+        <ImageButton
+            android:id="@+id/down"
+            android:background="@color/transparent"
+            android:clickable="true"
+
+
+            android:src="@drawable/up"
+
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:elevation="9dp"
+            android:scaleType="centerInside"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="18dp" />
+
+
+
+
+    </RelativeLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/bottom_sheet1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="true"
+        android:background="#212121"
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tri"
+                android:id="@+id/triangle"
+                android:alpha="0.3"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#acacac"
+                android:text="Trinity is an extravaganza beyond words, beyond description.It is the coming together of free spirits of like minded zealous youth and celebration of true artistic genius. Lots of opportunities to showcase your talents await you, only here at Trinity--best beginnings happen here. Come and witness the biggest fest you can attend!"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="sans-serif-light"
+                android:textSize="20dp"
+                android:padding="15dp"
+                android:id="@+id/textView"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

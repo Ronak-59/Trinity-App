@@ -1,0 +1,21 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=E8:82:94:FC:E7:14:0D:E2:92:A3:D7:B3:33:74:43:46:EC:70:BF:EF%3Bin.djtrinity.www.trinity
+
+    You can also add your credentials to an existing key, using this line:
+    E8:82:94:FC:E7:14:0D:E2:92:A3:D7:B3:33:74:43:46:EC:70:BF:EF;in.djtrinity.www.trinity
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        YOUR_KEY_HERE
+    </string>
+</resources>

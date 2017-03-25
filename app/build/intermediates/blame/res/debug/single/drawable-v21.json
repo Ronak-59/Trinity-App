@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\button_circlur.xml",
+        "source": "C:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\src\\main\\res\\drawable-v21\\button_circlur.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\custom_bg.xml",
+        "source": "C:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\src\\main\\res\\drawable-v21\\custom_bg.xml"
+    }
+]

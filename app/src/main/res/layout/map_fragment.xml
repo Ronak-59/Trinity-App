@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="200dp"
+    android:layout_width="match_parent">
+
+
+    <android.support.v4.app.Fragment
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/mapid"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+</RelativeLayout>

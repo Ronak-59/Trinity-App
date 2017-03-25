@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EventDetailsActivity">
+
+    <item
+        android:id="@+id/action_share"
+        app:showAsAction="ifRoom"
+        android:title="share"
+        android:icon="@drawable/ic_share_white_24dp" />
+
+</menu>

@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">DJ Trinity</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+    <string name="home_header">Welcome!</string>
+    <string name="home_text">Trinity is the most celebrated annual fest which combines sports and
+        culture while maintaining a technical identity for itself.
+        Drawn from Pulse, Parichay and Iridescence, the combination of all these aspects works
+        to multiply the fun and blends the spirit of sport, the creativity of cultural talent and
+        the thrill of technology.</string>
+
+    <string name="address">Dwarkadas J. Sanghvi College of Engineering, Plot No - U-15,
+                                J.V.P.D Scheme, Bhaktivedanta Swami Marg, Vile Parle(West),
+                                Mumbai - 400056</string>
+
+
+    <string name="contact_details_header">Contact Us</string>
+    <string name="number">Number:</string>
+    <string name="mob_number"> +91 98208 87657</string>
+    <string name="email">Email:</string>
+    <string name="email_id"><a href="publicity2k17@gmail.com">
+                                publicity2k17@gmail.com</a></string>
+    <string name="address_map">Go there</string>
+    <string name="add">Add Us On</string>
+
+
+    <string name="about_header">About Us</string>
+    <string name="aboutclg">Dwarkadas J. Sanghvi College of Engineering or DJ
+        as it is fondly referred to by its students is a reputed
+        educational institute and proud of both the legacy
+        and the responsibility of honing the future engineers
+        of our nation. Under the Management of Shri Vile
+         Parle Kelavani Mandal(SVKM), it has been
+         recognized as a premier top ranked institution, with
+         state-of-the-art facilities and distinguished faculty,
+         with more additions in the years to come.</string>
+    <string name="abouthead">ABOUT US</string>
+    <string name="clgname">DJ SANGHVI COLLEGE OF ENGINEERING</string>
+    <string name="trinityhead">TRINITY 2017</string>
+    <string name="abouttrinity1">Trinity represents an amalgamation of the three
+        dimensions of a student\'s life - technical,cultural and sports.</string>
+    <string name="abouttrinity2">Since the awe - inspiring response and feedback it
+        received for its previous edition, we at DJ present
+        for you to bear witness, Trinity 2017. It\'s bigger! It\'s
+        better! It\'s back with a bang!</string>
+    <string name="textColor">#000000</string>
+    <string name="ourprincipal">OUR PRINCIPAL</string>
+    <string name="aboutprincipal">Dr. Hari Vasudevan is the Principal of D.J.Sanghvi
+        College of Engineering and a Professor and Head of the Department of Production
+        Engineering. He has done post-graduation from VJTI University and Ph.D. from IIT Mumbai.
+        He has been a part of the college since its inception and has functioned as the Principal
+        from February 2009 till date.</string>
+
+
+    <string name="attractions_header">Attractions</string>
+    <string name="gallery_header">Gallery</string>
+    <string name="idpt_header">IDPT</string>
+    <string name="media_header">Media</string>
+
+
+    <string name="schedule_header">Schedule</string>
+    <string name="event1">CodeMania\n10 AM onwards\n2nd Floor</string>
+    <string name="event2">LAN Gaming\n10 AM onwards\n6th Floor</string>
+    <string name="event3">Robo Wars\n10 AM onwards\n5th Floor</string>
+    <string name="event4">Flight Simulator\n10 AM onwards\n3rd Floor</string>
+    <string name="event5">Laser Tag\n10 AM onwards\n5th Floor</string>
+
+
+    <string name="sponsor_header">Our Sponsors</string>
+    <string name="team_header">The Team</string>
+    <string name="title_activity_maps">DJMap</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_schedule_details">ScheduleDetailsActivity</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_sports">SportsActivity</string>
+    <string name="title_activity_tech">TechActivity</string>
+    <string name="title_activity_cultural">CulturalActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="steps">\n\n1- Take a screenshot of this screen.\n\n2- On Snapchat, touch on Add Friends.\n\n3- Select the Add by Snapcode option.</string>
+    <string name="title_activity_snap">SnapActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_hint">HintActivity</string>
+    <string name="google_maps_key">AIzaSyD0Cz_ALISujyauuNPPZszijutvVKurHaw</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Intro slider-->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+</resources>

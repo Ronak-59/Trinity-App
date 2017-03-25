@@ -1,0 +1,68 @@
+<resources>
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+        <item name="android:windowEnterTransition">@android:transition/slide_bottom</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Transparent" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@android:transition/slide_bottom</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+        <item name="android:windowBackground">@drawable/setup_background</item>
+    </style>
+
+    <style name="TechTheme" parent="AppTheme">
+        <item name="android:colorPrimary">@color/colorPrimaryTechnical</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkTechnical</item>
+    </style>
+
+    <style name="SportsTheme" parent="AppTheme">
+        <item name="android:colorPrimary">@color/colorPrimarySports</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkSports</item>
+    </style>
+
+    <style name="CulturalTheme" parent="AppTheme">
+        <item name="android:colorPrimary">@color/colorPrimaryCultural</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkCultural</item>
+    </style>
+
+    <style name="ScheduleDetailsTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "356275609728",
+    "firebase_url": "https://trinity-2017-app.firebaseio.com",
+    "project_id": "trinity-2017-app",
+    "storage_bucket": "trinity-2017-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356275609728:android:c2cabd5da90d8d64",
+        "android_client_info": {
+          "package_name": "in.djtrinity.www.newapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356275609728-r5hnk53jrvu6p8cfg2041jidq8ia92b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0Cz_ALISujyauuNPPZszijutvVKurHaw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

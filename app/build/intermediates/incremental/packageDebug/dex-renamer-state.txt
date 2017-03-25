@@ -1,0 +1,7 @@
+#Sat Mar 25 08:32:52 IST 2017
+base.0=C\:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2bf95d76f2c0777cbcefa23d34fa7918f88be462
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2cad0c295eccf5c31294a9de28a08ed268a01b63\\classes.dex
+base.1=C\:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2cad0c295eccf5c31294a9de28a08ed268a01b63
+file.0=C\:\\Users\\lenovo\\Desktop\\Trinity-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2bf95d76f2c0777cbcefa23d34fa7918f88be462\\classes.dex

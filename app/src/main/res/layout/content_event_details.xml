@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/schedule_details_nested_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".EventDetailsActivity"
+    tools:showIn="@layout/activity_event_details">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+                <TextView
+                    android:id="@+id/schedule_details_text_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:text="Header"
+                    android:paddingLeft="20dp"
+                    android:textSize="20dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="true"
+            android:id="@+id/venue"
+            android:textColor="#4dd0e1"
+            android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:id="@+id/dates"
+            android:textAllCaps="true"
+            android:textColor="#4dd0e1"
+            android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="DESCRIPTION:"
+
+                android:textSize="18dp"/>
+
+
+                <TextView
+                    android:id="@+id/schedule_details_text_info1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Description"
+                    android:paddingRight="10dp"
+                    android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="FEES:"
+                android:textSize="18dp"/>
+
+
+            <TextView
+                android:id="@+id/fees"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-light"
+                android:text="fees"
+                android:textAllCaps="true"
+                android:layout_marginStart="7dp"
+                android:paddingRight="10dp"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="REGISTER HERE:"
+                android:textSize="18dp"/>
+
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Registration"
+                android:textColor="#4dd0e1"
+                android:paddingRight="10dp"
+                android:layout_marginStart="7dp"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/contactustext"
+                    android:fontFamily="sans-serif"
+                    android:text="CONTACT US:"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/schedule_details_contact"
+                    android:layout_below="@+id/contactustext"
+                    android:paddingTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+
+                    android:fontFamily="sans-serif"
+                    android:text="event_coord"
+                    android:textColor="#4DD0E1"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/event_coord_no"
+                    android:text="event_coord_no"
+                    android:autoLink="phone"
+                    android:layout_below="@+id/contactustext"
+                    android:textColor="#4dd0e1"
+                    android:paddingTop="8dp"
+                    android:textSize="18dp"
+                    android:fontFamily="sans-serif"
+                    android:layout_toRightOf="@+id/schedule_details_contact"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tp"
+                    android:textAlignment="center"
+                    android:textColor="#acacac"
+                    android:paddingTop="15dp"
+                    android:textAllCaps="true"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_below="@+id/schedule_details_contact"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14dp"
+                    android:text="For More Details Please Visit The Help Desk Or Log On to : www.djtrinity.in" />
+
+
+
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</android.support.v4.widget.NestedScrollView>

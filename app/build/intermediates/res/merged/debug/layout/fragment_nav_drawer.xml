@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/nav_drawer_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:choiceMode="singleChoice"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/nav_drawer_image"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#212121"
+        android:contentDescription="trinity_logo"
+        android:onClick="openTrinity"
+        android:src="@drawable/appnavbar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/nav_drawer_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:scrollbars="vertical">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
