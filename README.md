@@ -1,6 +1,6 @@
 # Trinity-App
 <b>DJ-Trinity 2017 Android App</b>
-<br><b>Copyright 2017 Ronak Doshi<b><br>
+<br><b>Copyright 2017 Ronak Doshi</b><br>
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
